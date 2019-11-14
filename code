@@ -1,0 +1,10 @@
+function arrayReplace(inputArray, elemToReplace, substitutionElem) {
+    //loop through each value in array to sustitute the value
+    for(x in inputArray){
+        //the substitution occurs here
+        if(inputArray[x]==elemToReplace){
+            inputArray[x]=substitutionElem;
+        }
+    }
+    return inputArray;
+}
